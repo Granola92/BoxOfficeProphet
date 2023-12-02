@@ -17,10 +17,14 @@ Awards and nominations has a bug. I'm pretty sure any strings should be 0
 
 Genres are in lists. The lists come in alphabetical order, not related to which genre is most fitting. There are only a few genres so maybe make a binary column for each genre.
 
+Stars, directors, writers, and keywords are in order of importance. Directors 3 is none for 99% so usei it or don't. There is more detail to be added later on writers, as some writers do the screenplay while others do the story.
+
 There are so many keywords that you cannot make binary columns for them. They are all useful metrics still, so what you will probably need to do is make a separate dataframe with keywords as the index. Same goes for actors, writers, and directors
 
 Get used to converting all the numbers from strings to floats becuase I get them as strings in the html
 
 More about the revenues. All imdb data comes from boxofficemojo. If it is incomplete in imdb, it is incomplete in boxofficemojo. I will still go datascrape boxofficemojo because even if the data is incomplete it will be more detailed. If some box office data is missing I took out all box office data, because I found cases where they were able to hide american box office numbers but not other countries. The gross world revenue is a sum of all countries, so it looks super small, but its missing american numbers. Gross revenue is not comparable so all we can really gather is that it was probably a flop. 
+
+
 
 glhf
