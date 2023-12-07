@@ -1,0 +1,5 @@
+We used linear regression as we were attempting to predict a continuous numerical value. The model started with a simple multiple linear regression, where
+we inputted as many features as we thought may work. We found that revenue could be predicted with an R squared of 68%, while other outcome variables did
+not show a very statistically significant relationship. We then tried to determine which of our 250 input variables were actually impacting the model. Since our input
+data was scaled, we were able to compare the linear coefficients on each feature to determine their importance. We switched to a lasso regressor and decreased the
+tolerance for model complexity. We decreased the complexity until R squared began to decrease, leaving around 40 features that kept an R squared of 66%.
