@@ -38,5 +38,5 @@ Data Preparation:
 - The folder "Data Collected" consists of all the data collected through web scraping and processing.
 - The folder "Data CLeaning" consists of all processing scripts, such as scaling and inflation accounting.
 - The folder "Data Scraping" consists of all scraping scripts to find and create the main dataframes.
-- The folder "Final Model" contains scripts that 
-- 
+- The folder "Final Model" contains scripts that are used for the main model.
+- Start from Final Model 1 to replicate results, running the consecutive files in the order listed in the file name.
