@@ -9,7 +9,7 @@ Unidecode https://pypi.org/project/Unidecode/
 
 There are 4 main data sources for our project. They are listed below, along with the main outputs from each source. In order to analyze useful data, a cut-off of 5,000 IMDb user reviews was set for movies from 2002 to 2022. This was done to filter out movies that were either lacking in data due to less popularity or that were from before the digital age, when online rating platforms were popularized.
 
-*1.* IMDb: Movie Name, Release Date, Genres , Movie Cast, Directors, Writers, Runtime, Award Nominated, Awards Won, Gross Revenue (US+Canada), Opening Weekend Revenue (US+Canada), Gross Revenue (Worldwide), Estimated Budget, IMDb score, IMDb review count, Keywords, Production Company
+1. IMDb: Movie Name, Release Date, Genres , Movie Cast, Directors, Writers, Runtime, Award Nominated, Awards Won, Gross Revenue (US+Canada), Opening Weekend Revenue (US+Canada), Gross Revenue (Worldwide), Estimated Budget, IMDb score, IMDb review count, Keywords, Production Company
 
 2. Rotten Tomatoes : Critic Score, Critic Review Count, Audience Score, Audience Review Count, Producer Names
 
