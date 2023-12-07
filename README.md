@@ -29,12 +29,9 @@ Data Preparation:
 
 4. For Wikipedia data, a list of actors is generated from the unique values that appear in the list of stars for each movie in the IMDB dataframe. Multiple URL links are generated as Wikipedia have variances in the link formatting. All of the various URL cases are tried and the one that does not return nothing is used to find the years active for each actor listed.
 
-5. 
+5. Linear regression was the ideal model type selected. Originally starting with 250 input features, it was later narrowed down to 40 relevant ones, by removing features until R-squared decreased
 
-
-
-
-
+6. A LASSO regression was implemented in the final step to decrease tolerance for model complexity.
 
 
 #Details
@@ -42,3 +39,4 @@ Data Preparation:
 - The folder "Data CLeaning" consists of all processing scripts, such as scaling and inflation accounting.
 - The folder "Data Scraping" consists of all scraping scripts to find and create the main dataframes.
 - The folder "Final Model" contains scripts that 
+- 
