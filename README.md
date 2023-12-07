@@ -5,5 +5,5 @@ This project by Harty Gold details the work in creating a linear regression mode
 from IMDb, Rotten Tomatoes, BoxOfficeMojo & Wikipedia.
 
 Additional package installation required: Currency Converter https://pypi.org/project/CurrencyConverter/, 
-\n Unidecode https://pypi.org/project/Unidecode/
+Unidecode https://pypi.org/project/Unidecode/
 
